@@ -14,9 +14,8 @@ A Chrome Extension that **collects comments from any YouTube video**, sends them
 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, CSS, JavaScript (Chrome Extension APIs)
-- **Backend**: Flask (Python)
-- **ML**: Scikit-learn (with trained sentiment analysis model)
-- **Other**: Flask-CORS, Joblib, Pandas, Numpy
+- **Backend**: Flask (Python), Flask-CORS
+- **ML**: NLTK Library for language processing tasks.
 
 ---
 
@@ -49,11 +48,17 @@ git clone https://github.com/nksharma132/youtube-sentiment-extension.git
 cd youtube-sentiment-extension
 
 
+
+
+
 ### 2️⃣ Setup Python Virtual Environment
+
+Create a **virtual environment** to manage dependencies:
+
+#### On Windows
+```bash
 python -m venv sentimentenev
-sentimentenev\Scripts\activate   # On Windows
-# or
-source sentimentenev/bin/activate   # On macOS/Linux
+sentimentenev\Scripts\activate
 
 
 ### 3️⃣ Install Dependencies
